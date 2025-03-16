@@ -1,0 +1,25 @@
+nav {
+    background-color: transparent;
+  
+    ul {
+      list-style-type: none;
+      display: flex;
+      gap: 1rem;
+  
+      li {
+        a {
+          background-color: #2A324B;
+          display: inline-block;
+          padding: 1rem 2rem;
+          color: white;
+          text-decoration: none;
+          text-transform: uppercase;
+  
+          &:hover {
+            background-color: #58699D;
+            color: white;
+          }
+        }
+      }
+    }
+  }
