@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/nav.scss"; // ✅ Correct relative import
+import "../styles/nav.scss"; 
 
 const Nav = () => {
   return (
@@ -10,7 +10,7 @@ const Nav = () => {
         <li><Link to="/css">CSS</Link></li>
         <li><Link to="/javascript">JavaScript</Link></li>
         <li><Link to="/react">React</Link></li>
-        <li><Link to="/sanity">Sanity</Link></li>
+        <li><Link to="/sanity">Sanity</Link></li> 
       </ul>
     </nav>
   );

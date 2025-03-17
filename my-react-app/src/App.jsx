@@ -22,3 +22,4 @@ const App = () => {
 };
 
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+<Route path="/:category" element={<Resources />} />
